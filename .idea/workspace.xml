@@ -26,6 +26,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:uno" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="9vitsbrh" />
   </component>
@@ -38,6 +41,7 @@
     <option name="minorVersion" value="1.3" />
   </component>
   <component name="ProjectId" id="2EbG5bjfVdwm3nI6mRwWsvPf4FO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -102,7 +106,7 @@
       <workItem from="1662918837606" duration="2754000" />
       <workItem from="1663036656776" duration="3289000" />
       <workItem from="1663122618630" duration="3330000" />
-      <workItem from="1663177582163" duration="99000" />
+      <workItem from="1663177582163" duration="141000" />
     </task>
     <servers />
   </component>
