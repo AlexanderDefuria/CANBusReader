@@ -1,0 +1,130 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.25,
+"PadToPad": 0.2,
+"PadToTrack": 0.2,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "CANBusReaderBoard-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Bot",
+"FilePolarity": "Positive",
+"Path": "CANBusReaderBoard-B_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "CANBusReaderBoard-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "CANBusReaderBoard-B_Paste.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "CANBusReaderBoard-F_Silkscreen.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "CANBusReaderBoard-B_Silkscreen.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "CANBusReaderBoard-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "CANBusReaderBoard-B_Mask.gbr"
+},
+{
+"FileFunction": "Other,User",
+"FilePolarity": "Positive",
+"Path": "CANBusReaderBoard-User_Drawings.gbr"
+},
+{
+"FileFunction": "Other,User",
+"FilePolarity": "Positive",
+"Path": "CANBusReaderBoard-User_Comments.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "CANBusReaderBoard-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"Finish": "None",
+"LayerNumber": 2,
+"ProjectId": {
+"GUID": "53656e73-6f72-4426-9f61-72642e6b6963",
+"Name": "SensorBoard",
+"Revision": "rev?"
+},
+"Size": {
+"X": 56.2,
+"Y": 89.2
+}
+},
+"Header": {
+"CreationDate": "2022-07-31T23:28:34-04:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "6.0.7-f9a2dced07~116~ubuntu22.04.1"
+}
+},
+"MaterialStackup": [
+{
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Name": "Top Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Name": "Top Solder Mask",
+"Type": "SolderMask"
+},
+{
+"Name": "F.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "F.Cu/B.Cu",
+"Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)",
+"Type": "Dielectric"
+},
+{
+"Name": "B.Cu",
+"Type": "Copper"
+},
+{
+"Name": "Bottom Solder Mask",
+"Type": "SolderMask"
+},
+{
+"Name": "Bottom Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}

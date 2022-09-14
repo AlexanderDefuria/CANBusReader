@@ -1,0 +1,5 @@
+/home/alexander/Desktop/CANBusReader/cmake-build-debug/CMakeFiles/Production.dir
+/home/alexander/Desktop/CANBusReader/cmake-build-debug/CMakeFiles/Debug.dir
+/home/alexander/Desktop/CANBusReader/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
+/home/alexander/Desktop/CANBusReader/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alexander/Desktop/CANBusReader/cmake-build-debug/CMakeFiles/rebuild_cache.dir
