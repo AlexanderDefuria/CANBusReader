@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/../../kicad_libs/RP2040")(options "KiCad")(descr ""))
+)
