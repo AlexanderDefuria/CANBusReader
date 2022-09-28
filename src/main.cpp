@@ -8,13 +8,20 @@ struct can_frame canMsg1;
 
 
 void setup() {
-    SPI.begin();   //Begins SPI communication
+    SPI.begin( 6, 5, 7, 10);   //Begins SPI communication
     Serial.begin(9600); //Begins Serial Communication at 9600 baud rate
     mcp2515.reset();
     mcp2515.setBitrate(CAN_1000KBPS,MCP_20MHZ); //Sets CAN at speed 500KBPS and Clock 8MHz
     mcp2515.setNormalMode();  //Sets CAN at normal mode
     Serial.print("HIT");
-
+    Serial.print("MOSI: ");
+    Serial.println(MOSI);
+    Serial.print("MISO: ");
+    Serial.println(MISO);
+    Serial.print("SCK: ");
+    Serial.println(SCK);
+    Serial.print("SS: ");
+    Serial.println(SS);
     canMsg1.can_id  = 0x02;
     canMsg1.can_dlc = 8;
     canMsg1.data[0] = 0x8E;
@@ -28,12 +35,12 @@ void setup() {
 }
 
 void loop(){
-//    if ((mcp2515.readMessage(&canMsg) == MCP2515::ERROR_OK)){
-//        Serial.println(canMsg.can_id, 2);
-//        for (unsigned char i : canMsg.data)
-//            Serial.println(i);
-//        Serial.println("");
-//    }
+    if ((mcp2515.readMessage(&canMsg) == MCP2515::ERROR_OK)){
+        Serial.println(canMsg.can_id, 2);
+        for (unsigned char i : canMsg.data)
+            Serial.println(i);
+        Serial.println("");
+    }
 
     mcp2515.sendMessage(&canMsg1);
 
