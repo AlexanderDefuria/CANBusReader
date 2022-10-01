@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "RP2040")(type "KiCad")(uri "/home/alexander/Desktop/CANBusReader/kicad_libs/RP2040/RP2040.kicad_sym")(options "")(descr ""))
+)
