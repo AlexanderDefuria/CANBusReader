@@ -3,4 +3,5 @@
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "/home/alexander/Desktop/CANBusReader/kicad_libs/KiCad-RP-Pico-main/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "MCP2515-EP")(type "KiCad")(uri "/home/alexander/Desktop/CANBusReader/kicad_libs/ul_MCP2515-E-P/footprints.pretty")(options "")(descr ""))
   (lib (name "MCP2562FD-EP")(type "KiCad")(uri "/home/alexander/Desktop/CANBusReader/kicad_libs/ul_MCP2562FD-E-P/footprints.pretty")(options "")(descr ""))
+  (lib (name "3xRJ45V")(type "KiCad")(uri "/home/alexander/Desktop/CANBusReader/kicad_libs/3xRJ45V/3xRJ45V.pretty")(options "")(descr ""))
 )
